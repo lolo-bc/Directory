@@ -3,9 +3,7 @@ import React from 'react';
 function Navbar() {
     return (
     <div>
-        <nav>
-            Directory
-        </nav>
+        <h1>My Directory</h1>
     </div>
     )};
   

@@ -1,13 +1,11 @@
 import React from 'react';
 
-function Navbar() {
+function EmployeeCard(props) {
     return (
     <div>
-        <h1>
-        Sir Cumference
-        </h1>
+        <strong>Name:</strong> {props.first_name}
     </div>
     )};
   
-  export default Navbar;
+  export default EmployeeCard;
   
